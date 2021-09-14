@@ -6,7 +6,7 @@ from PIL import ImageFont
 def add(text, fileName, savePath):
     font1 = ImageFont.truetype(r'C:\Windows\Fonts\msyh.ttc', 72)
     font1 = ImageFont.truetype(font1, 72)
-    # text = '经纬度143.1546°E  56.1667°N'
+    text = '经纬度143.1546°E  56.1667°N'
 
     watermark = Image.open(fileName)
     img_size = watermark.size
